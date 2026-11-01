@@ -2,7 +2,7 @@
 
 ## Preface
 
-Since this is my first devlog post (not only) here, I thought it would be a good idea to share some things about the author. It's not that interesting, but I think it helps creating a connection with you all ;)
+Since this is my first devlog post (not only) here, i thought it would be a good idea to share some things about the author. It's not that interesting, but I think it helps creating a connection with you all ;)
 
 My name is Fábio Arthur Asdorian, 26, I've been a backend engineer for 5 years. I have worked in startups, medium and big companies and I'm currently in my first experience in an international job with colleagues all over Europe.  
 
@@ -28,11 +28,16 @@ With libGDX I had no rigid paradigms (like Unity forcing developers into its spe
 
 **Architectural Freedom, yay!**
 
-Also, when [searching for libGDX resources](https://github.com/rafaskb/awesome-libgdx#readme), I came across *Ashley* (a lib, not a person) and the [Entity Component System (ECS)](https://en.wikipedia.org/wiki/Entity_component_system), a flexible and modular software architectural pattern following a data-oriented architectural style, very common in game development. ECS would help me escalate the game's scope by being modular enough to keep adding features I initially wasn't planning (thanks to my early days as a developer in startups I was *really* used to this).
+Also, when [searching for libGDX resources](https://github.com/rafaskb/awesome-libgdx#readme), I came across [Ashley](https://github.com/libgdx/ashley) (a lib, not a person) and the [Entity Component System (ECS)](https://en.wikipedia.org/wiki/Entity_component_system), a flexible and modular software architectural pattern following a data-oriented architectural style, very common in game development. ECS would help me escalate the game's scope by being modular enough to keep adding features I initially wasn't planning (thanks to my early days as a developer in startups I was *really* used to this).
 
-I had an idea, an architecture, a basic tech stack, experience as a software engineer and, most of all, curiosity to discover and explore new things as a hobbyist game developer. It was time to quit sharpening the axe and start cutting the tree... or the stick at least... and hoping it doesn't fall over me.
+**On ECS, every entity is defined by its components** and not by a type hierarchy as in OOP. Systems will act globally in these entities based on the components they have. If an entity doesn't have the required components of a system, it is completely ignored and the system will iterate only on the valid entities.
+It does fit perfectly on this project complexity while also being efficient to process.
+Do you want an entity that shoots? Add a `GunComponent` and a `ShootingSystem`; Want it to also fly? Add a `WingComponent` and a `FlyingSystem`.
+Easy enough, the code will look organized and easy to tweak and debug when NPCs start to sink into the ground *(yes, Bethesda, this is for you)*.
+
+I had an idea, an architecture, a basic tech stack, experience as a software engineer and, most of all, curiosity to discover and explore new things as a hobbyist game developer. **It was time to quit sharpening the axe and start cutting the tree**... *or the stick at least... and hoping it doesn't fall over me.*
 
 *Next up: setting up the project baseline, wiring up Ashley ECS, and rendering my very first moving sprite. I’ll dive into how I structured the initial ECS components and tackled libGDX's game loop without losing my backend sanity.*
 
-— Fábio
+— Fabio<br>
 *Lisbon, Portugal*
