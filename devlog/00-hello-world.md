@@ -1,4 +1,4 @@
-# Devlog #1: Hello, World! (A Backend Engineer’s Fresh Start)
+# Devlog #0: Hello, World! (A Backend Engineer’s Fresh Start)
 
 ## Preface
 
