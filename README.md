@@ -1,9 +1,7 @@
 
 > 🚧 **WORK IN PROGRESS** — *Pardon the dust, currently refactoring code and setting up camp.*
 
-> *Backend engineering, low-level experiments, and indie game dev updates.*
-
-Welcome to the lab! I'm Fábio—a backend engineer navigating life in Lisbon and building an unforgiving 2D procedural dungeon crawler in Java during my free time.
+Welcome! I'm Fábio—a backend engineer navigating life in Lisbon and building an unforgiving 2D procedural dungeon crawler in Java during my free time.
 
 ---
 
