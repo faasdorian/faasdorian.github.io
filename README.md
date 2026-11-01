@@ -1,7 +1,7 @@
 
-> 🚧 **WORK IN PROGRESS** — *Pardon the dust, currently refactoring code and setting up camp.*
+> 🚧 **WORK IN PROGRESS** — *Pardon the dust, currently setting up camp.*
 
-Welcome! I'm Fábio—a backend engineer navigating life in Lisbon and building an unforgiving 2D procedural dungeon crawler in Java during my free time.
+Welcome! I'm Fabio, a backend engineer navigating life in Lisbon and building an unforgiving 2D procedural dungeon crawler in Java during my free time.
 
 ---
 
