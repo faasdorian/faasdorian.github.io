@@ -1,4 +1,3 @@
-# faasdorian // dev log & lab
 
 > *Backend engineering, low-level experiments, and indie game dev updates.*
 
